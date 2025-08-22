@@ -36,3 +36,6 @@ print()
 
 print("Count of even numbers ",len(list(filter(lambda x : x % 2 == 0, l))))
 
+#new clone to pycharm
+print("new python using git")
+
