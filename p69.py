@@ -1,18 +1,17 @@
 
 
-def decerator(division):
-    def inner(a, b):
-        if b != 0:
-            return division(a,b)
+def decateron(division):
+    def wrapper(a,b):
+        if b == 0:
+            return "Cannot divisible by zero"
         else:
-            return "Error"
-    return inner
+            return division(a,b)
+    return wrapper
 
 
-@decerator
+@decateron
 def division(a,b):
-    return a / b
+    return a/b
 
-
-print(division(10,5))
+print(division(20,0))
 

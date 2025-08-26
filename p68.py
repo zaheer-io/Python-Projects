@@ -3,7 +3,6 @@
 #     def innter(a,b):
 #         if a < b:
 #             a,b = b,a
-#         return a
 #         return fun(a, b)
 #     return innter
 #
@@ -15,6 +14,18 @@
 
 
 
+def decattor(swap):
+    def wraper(a,b):
+        if b > a:
+            a,b = b,a
+        return swap(a,b)
+    return wraper
 
-def printname(name):
-    print("hii", name)
+@decattor
+def sub(a,b):
+    return a-b
+
+print(sub(10,15))
+
+
+print
