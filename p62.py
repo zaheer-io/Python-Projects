@@ -6,12 +6,10 @@ print(list(filter(lambda x : x % 2 == 0, l)))
 
 #create a list of numbers that are divisible by 3
 
-print(list(filter(lambda x : x > 50, l)))
-
-#create a list that are divisibe by 3
-
 print(list(filter(lambda x : x % 3 == 0, l)))
+
+
 
 #create a list of even numbers greater than 50
 
-print(list(filter(lambda x : x % 2 == 0 and x > 50, l)))
+print(list(filter(lambda x : x > 50, l)))

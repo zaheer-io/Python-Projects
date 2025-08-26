@@ -22,4 +22,4 @@ print(list(map(lambda x : len(x), colours)))
 #create of list of square roots
 l = [36,81,49,16]
 
-print(list(map(lambda x : x **  0.5, l)))
+print(list(map(lambda x : x ** 0.5, l)))

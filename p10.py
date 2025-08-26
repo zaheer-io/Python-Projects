@@ -12,6 +12,7 @@ write a python program
 
 """
 
+
 s = "Pthon is a programming language"
 
 print(f"String = {s}")
