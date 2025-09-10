@@ -94,6 +94,41 @@ def search():
         print("File not found!. ")
         print("\n")
 
+def apppend():
+    filename = input("Enter file name: ")
+    fullname = ext(filename)
+
+    if os.path.exists(fullname):
+        with open(fullname, 'a+') as append:
+            content = input("Enter the content to append: ")
+            append.write("\n" + content)
+            append.seek(0)
+            print("Updated content is:\n" + append.read())
+    else:
+        print(f"File {fullname} does not exist")
+
+
+def delete():
+    filename = input("Enter file name to delete: ")
+    fullname = ext(filename)
+
+    if os.path.exists(fullname):
+        print(f"File {fullname} exists..")
+        ch = input("Do you want to delete the file ? ('y' for yes and 'n' for no) ")
+        if ch == 'y':
+            os.remove(fullname)
+        elif ch == 'n':
+            pass
+        else:
+            print("Enter valid choice !")
+            pass
+    else:
+        print(f"File {fullname} not found !")
+        pass
+
+apppend()
+
+
 
 
 
