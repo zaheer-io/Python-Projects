@@ -21,14 +21,16 @@ class Bank:
     def __init__(self):
         self.accountno = int(input("Enter the account no: "))
         self.name = input("Enter the account holder name: ")
-        self.balance = 0.00
+        # self.balance = 0.00
+        self.balance = int(input("Enter amount: "))
+
 
     def showbalance(self):
         print(f"Current balance is : {self.balance}")
 
-    def deposit(self):
-        amt = float(input("Enter the amount to deposit: "))
-        self.balance += amt
+    def deposit(self, amount):
+        self.balance += amount
+        print("New balance is" ,self.balance)
 
         print("Deposit successful...")
         print(f"New balance is {self.balance}")
@@ -36,7 +38,7 @@ class Bank:
     def withdrawn(self):
         amt = float(input("Enter the amount to be withdrawn: "))
         if amt > self.balance:
-            print("Empty balance:")
+            print("Empty balance")
         else:
              self.balance -= amt
              print("Withdrawn successful...")
@@ -44,11 +46,15 @@ class Bank:
 
 
 b1 = Bank()
-b1.showbalance()
-b1.deposit()
-b1.withdrawn()
-b1.showbalance()
+b2 = Bank()
+l = [b1, b2]
 
-b1.deposit()
-b1.withdrawn()
+for i in l:
+    print(i.accountno, i.balance, i.name)
+
+
+
+# b1.showbalance()
+# amt = int(input("enter amt to deposit: "))
+# b1.deposit(amt)
 
