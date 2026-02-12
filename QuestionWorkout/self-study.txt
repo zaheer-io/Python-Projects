@@ -1,0 +1,9 @@
+Folder: Self Study
+Goal: Detailed inferred questions for conceptual practice.
+
+Try/p1.py
+Detailed inferred question:
+- Demonstrate difference between shallow copy and deep copy for nested list:
+  `l1 = [1, 2, 3, [4, 5]]`.
+- Create `l2 = copy.copy(l1)` and `l3 = copy.deepcopy(l1)`.
+- Modify nested element in deep copy (e.g., `l3[3][1] = 6`) and compare outputs of `l1`, `l2`, `l3`.

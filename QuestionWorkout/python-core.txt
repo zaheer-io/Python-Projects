@@ -1,0 +1,29 @@
+Folder: Python Core
+Goal: Detailed inferred questions for file handling exercises.
+
+p1.py
+Detailed inferred question set:
+- In file `text.txt`, check whether user-entered word is present.
+- Print last 5 lines from `new.txt`.
+- Count letters, digits, and spaces in file content.
+- Replace the second line of `new.txt` with `line is changed` and write back.
+
+p2.py
+Detailed inferred question:
+- Read complete content from `new.txt` and append it into another file (e.g., `new1.txt`).
+- Then display appended content.
+
+p3.py
+Detailed inferred question:
+- Build menu-driven file manager using `os` module:
+  1) Write file
+  2) Read file
+  3) Append file
+  4) Search word in file
+  5) Delete file
+  6) Exit
+- Include file existence checks before operations.
+
+p4.py
+Detailed inferred question:
+- Print all numbers from `1` to `100` that are divisible by `3` or `5` but not both.

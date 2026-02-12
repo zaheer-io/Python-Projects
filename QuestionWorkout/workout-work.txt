@@ -1,0 +1,89 @@
+Folder: Workout
+Goal: Detailed inferred questions with exact sample data.
+
+fileop1.py
+Detailed inferred question:
+- Build file utility with extension chooser (`.txt` / `.py`) and operations:
+  write/create, read, append, search word, delete.
+- Ask overwrite confirmation when file already exists.
+
+p.py
+Detailed inferred question:
+- Read a sentence and create dictionary:
+  `{word: {'length': len(word), 'is_palindrome': bool, 'count': frequency}}`.
+
+p1.py
+Detailed inferred question:
+- Read sentence and build per-word dictionary including:
+  `length`, `count`, `is_palindrome`, `number_of_vowels`, `number_of_consonants`.
+
+p2.py
+Detailed inferred question:
+- Read string, ignore spaces, and create character dictionary:
+  `{char: {'count': n, 'is_vowel': bool, 'ascii': ord(char)}}`.
+
+p3.py
+Detailed inferred question:
+- Input student name and marks as comma-separated text.
+- Build nested dictionary:
+  `{name: {'marks': score, 'grade': A/B/C/D/F, 'pass': True/False}}`.
+
+p4.py
+Detailed inferred question:
+- Given list of tuples
+  `[("apple",3), ("banana",5), ("apple",2), ("orange",1)]`,
+  convert into merged dictionary count format.
+
+p5.py
+Detailed inferred question:
+- Reverse dictionary problem:
+  from `{"a":1, "b":2, "c":1}` create `{1:["a","c"], 2:["b"]}`.
+  (File currently incomplete.)
+
+p6.py
+Detailed inferred question:
+- Parse employee data string
+  `"101,John,HR,35000;102,Ana,IT,55000;103,Sam,Sales,45000"`
+  into nested dictionary keyed by employee id.
+
+p8.py
+Detailed inferred question:
+- Read comma-separated numbers and build dictionary:
+  `{num: {'square': num**2, 'cube': num**3, 'iseven': bool, 'isodd': bool}}`.
+
+p9.py
+Detailed inferred question:
+- Given `keys=["a","b","c"]` and `values=[10,20,30]`, create forward mapping dictionary and also reverse mapping.
+
+p10.py
+Detailed inferred question:
+- Given marks dictionary
+  `{'zaheer':50,'anjana':85,'archana':62,'appus':49,'rahim':69}`
+  sort by keys and values in ascending and descending order.
+
+p11.py
+Detailed inferred question:
+- Group anagrams from list
+  `["eat","tea","ate","bat","tab","arc","car"]`
+  using sorted-letter key.
+
+p12.py
+Detailed inferred question:
+- Read sentence and create dictionary where key is word length and value is list of words having that length.
+
+p13.py
+Detailed inferred question:
+- Convert list
+  `[{"id":1,"name":"John"},{"id":2,"name":"Ana"}]`
+  into `{1:"John", 2:"Ana"}`.
+
+p14.py
+Detailed inferred question:
+- For numbers `1` to `20`, build dictionary:
+  `{n: {'prime': True/False, 'factors': [all factors of n]}}`.
+
+p15.py
+Detailed inferred question:
+- Merge dictionaries `d1={"a":2,"b":3}` and `d2={"a":5,"c":10}`
+  to output `{"a":7,"b":3,"c":10}`.
+  (File currently incomplete.)

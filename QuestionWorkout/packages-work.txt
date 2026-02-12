@@ -1,0 +1,16 @@
+Folder: Packages
+Goal: Detailed inferred questions with package/module specifics.
+
+mod1.py
+Detailed inferred question:
+- Create and use a custom package import:
+  import module `p1` from `package1` and call `p1.msg()`.
+
+package1/__init__.py
+Detailed inferred question:
+- Show package initialization behavior by printing a message when package is imported.
+
+package1/p1.py
+Detailed inferred question:
+- Create module variables/functions in a package:
+  define `x = 20` and function `msg()` that prints `hello world`.

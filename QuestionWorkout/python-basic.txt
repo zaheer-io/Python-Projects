@@ -1,0 +1,453 @@
+Folder: Python Basic
+Goal: Detailed inferred questions with program constants and given data.
+
+p1.py
+Detailed inferred question:
+- Print fixed values and variables: `100`, `101`, and string `"hello"`.
+
+
+p2.py
+Detailed inferred question:
+- Read one integer and print its cube (`num * num * num`).
+- Comment indicates square, but implemented question/output is cube.
+
+p3.py
+Detailed inferred question:
+- Read user name and print greeting as `Hello <name>!`.
+
+p4(arithamatic operations).py
+Detailed inferred question:
+- Read two integers and print `sum`, `difference`, `product`, and `quotient`.
+
+p5.py
+Detailed inferred question:
+- Read two integers and print sum of their squares:
+  `firstno**2 + secondno**2`.
+
+p6.py
+Detailed inferred question:
+- Read principal `p`, year `n`, and rate `r`, then compute simple interest:
+  `(p*n*r)/100`.
+
+p7.py
+Detailed inferred question:
+- Swap two numbers:
+  1) using third variable,
+  2) using tuple swap (`a,b = b,a`).
+
+p8.py
+Detailed inferred question:
+- Read rectangle `length` and `breadth`; print area and perimeter.
+
+p9.py
+Detailed inferred question:
+- No code present (empty file).
+
+p10.py
+Detailed inferred question:
+- For string `"Pthon is a programming language"`, perform:
+  print original, reverse, length, 7th char, char at index 13,
+  substring index 4 to 12, last char.
+- Also demonstrate removing first part using `"Hello world"[6:]`.
+
+p11.py
+Detailed inferred question:
+- Given food list `['porota','chappthi','laddu','gilebi','peda']`:
+  append one item, update second item, print length, reverse, last and 5th item.
+- Given numeric list `[23,56,89,10,67,45,17]`, swap elements at index `1` and `5`.
+
+p13.py
+Detailed inferred question:
+- Demonstrate major Python data types (numeric, text, sequence, mapping, set, bool, None)
+  and operators (arithmetic, relational, assignment, logical, membership) with sample values.
+
+p14.py
+Detailed inferred question:
+- Conditional checks:
+  print number if divisible by both `3` and `4`.
+  print "found" if entered name contains `'n'`.
+  print name if first char is `'a'`.
+  print name if last char is `'a'`.
+  print location if it contains substring `"land"`.
+
+p15.py
+Detailed inferred question:
+- Check whether entered number is even or odd.
+
+p17.py
+Detailed inferred question:
+- File contains many conditional practice questions (mostly commented):
+  3-digit check, multiple-of-3 last digit, vowel check, list membership,
+  dictionary name check, string equality, palindrome.
+- Active question: read two numbers and print the maximum.
+
+p18.py
+Detailed inferred question:
+- Read three numbers and print largest using nested `if`.
+
+p19.py
+Detailed inferred question:
+- Read four numbers and print largest.
+
+p20.py
+Detailed inferred question set:
+- Identify whether input is 2-digit, 3-digit, or 4-digit number.
+- Build calculator for `+ - * /`.
+- Convert score to grade using ranges:
+  `91-100:A, 81-90:B, 71-80:C, 61-70:D, <61:E`.
+- Determine triangle type by side equality.
+- Print number of days in month using lists/dictionary (`january`, `february`, etc.).
+
+p21.py
+Detailed inferred question:
+- Classify number into:
+  positive-even, positive-odd, negative-even, negative-odd, or zero.
+
+p22.py
+Detailed inferred question:
+- Toy vendor discount calculation with product codes:
+  `1` battery toy -> 10% discount if amount > 1000
+  `2` key-based toy -> 5% discount if amount > 100
+  `3` charging toy -> 10% discount if amount > 500
+- Print payable net amount.
+
+p23.py
+Detailed inferred question:
+- Contains many loop questions in comments:
+  leap year, prime check, primes 1-100, multiplication table, factorial, digit count, reverse number.
+- Active task: in a sentence count digits, vowels, spaces, consonants.
+
+p24.py
+Detailed inferred question:
+- Compute BMI using `weight/(height*height)` and classify:
+  `<=18.4 Underweight`, `18.5-24.9 Normal`, `25.0-39.9 Overweight`, `>=40 Obese`.
+- Also includes toy-vendor discount question statement.
+
+p26.py
+Detailed inferred question:
+- Loop practice file with many commented sequences.
+- Active task: print all 3-digit numbers (`100-999`) divisible by both `2` and `3`.
+
+p27.py
+Detailed inferred question:
+- Given names list
+  `['arya','anjana','muth','appus','sini','zaheer','laya']`:
+  collect every 3rd name, names with length > 4, uppercase names, and names starting with vowels.
+
+P28.py
+Detailed inferred question:
+- Multi-level list challenge prompts (reverse without slicing, first letters, index-based selection, etc.).
+- Active section: from names list detect words with consecutive duplicate letters (e.g., `appus`).
+
+p29.py
+Detailed inferred question:
+- Read user name and print an animated typing effect by cycling letters from `a` to target letter using `time.sleep(0.05)`.
+
+p30.py
+Detailed inferred question:
+- While-loop arithmetic tasks:
+  sum `200-400`, sum of squares `1-10`, product `1-10`,
+  product of even numbers `1-100`,
+  sum and count of numbers divisible by `3` in range `1-50`.
+
+p31.py
+Detailed inferred question:
+- (Commented) factorial and multiplication table.
+- Active: print all factors of entered number.
+
+p32(for loop).py
+Detailed inferred question:
+- No code present (empty file).
+
+p33.py
+Detailed inferred question:
+- Given students data:
+  `Asha:[98,82,91,97,89]`, `John:[88,76,92,85,77]`, `Maya:[70,70,84,79,88]`.
+- Questions include: average per student, topper, students with >80 in at least 3 subjects,
+  assign grade by average (`A>=90`, `B>=80`, `C>=70`, else `D`).
+
+p34.py
+Detailed inferred question:
+- Iterate and print elements from:
+  string `"python is a programming language"`,
+  number list `[23,56,89,12,90,13,60]`,
+  colors list `['red','green','orange','yello','blue']`,
+  dictionary country values,
+  mixed list `['arun',34,'hello',9.8]`.
+
+p34(try hard).py
+Detailed inferred question:
+- Functional programming challenge bank with `reduce`, `map`, `filter`.
+- Includes max/min, divisibility count, reverse strings, longest word,
+  sum of squares of positive even numbers, and sorting words by first letter/length.
+
+p35.py
+Detailed inferred question:
+- From `"python is a programming language"`, print non-vowels/non-space chars.
+- From list `[23,56,89,12,90,13,60]`, print numbers > 15.
+- From colors list, print names with length > 5.
+- From country dict, print values containing `"land"`.
+- From mixed list, print only string elements.
+
+p36.py
+Detailed inferred question:
+- For-loop practice:
+  sum 1..20,
+  sum elements > 50 from `[11,34,67,23,90]`,
+  average age from `{'arun':34,'amal':56,'anu':23,'kiran':32}`,
+  factorial of input number,
+  factors of number,
+  multiplication table.
+
+p37.py
+Detailed inferred question:
+- Sum list elements `[11,23,56,34]`.
+- Print all 3-digit numbers (`100` to `999`).
+- From colors list print values starting with `'b'`.
+
+p38.py
+Detailed inferred question:
+- Reverse number `1234` using string method and arithmetic method.
+- Reverse string `"hello world"` manually.
+- Comments also include digit sum and Armstrong logic.
+
+p39.py
+Detailed inferred question:
+- Break/continue tasks:
+  print characters from `"python is a programming language"` up to chosen character,
+  stop fruit loop at `"pineapple"`, skip `"apple"`,
+  print non-multiples of 3 from `[45,67,12,90,78,10]`,
+  print first color starting with `b`.
+
+p40.py
+Detailed inferred question:
+- Given `s="python is a programming language"` and input character,
+  use index to derive next character and print substring before that character.
+
+p41.py
+Detailed inferred question:
+- Create student record collector loop:
+  inputs `id`, `name`, marks for `Physics, Chemistry, Biology, Maths, English, Hindi`.
+- Store each record as nested dictionary in list.
+
+p42.py
+Detailed inferred question:
+- Check if entered number is prime.
+
+p43.py
+Detailed inferred question:
+- Print centered star pyramid for user-entered number of rows.
+
+p44.py
+Detailed inferred question:
+- Pattern practice file with many examples.
+- Active patterns:
+  print rows of even numbers (`2`, `44`, `666`, `8888` style)
+  and odd numbers (`1`, `33`, `555`, `7777`).
+
+p45.py
+Detailed inferred question:
+- Print multiple star/number patterns:
+  increasing stars, right-shifted stars, increasing numbers,
+  decreasing stars, and a symmetric star-diamond style pattern.
+
+p46.py
+Detailed inferred question:
+- Nested-loop drills with list `['kelly','emy','alen']`,
+  number loops, and increasing/decreasing star patterns including even/odd width rows.
+
+p47.py
+Detailed inferred question:
+- Advanced pattern practice file (many commented patterns).
+- Active section prints centered star shape using `size = 6` and spacing logic.
+
+p48.py
+Detailed inferred question:
+- Use `enumerate` on string `"hello world"` starting index at `6`; print index and character.
+
+p49.py
+Detailed inferred question:
+- Using list `[12,75,67,13,56,11]`, build three lists:
+  even values, odd values, and values `< 50`.
+
+p50.py
+Detailed inferred question:
+- Comprehension tasks with concrete data:
+  `fruits=['apple','banana','orange','pineapple','avocado']` -> words length > 5.
+  `l=[12,39,'hello',8.7,-98,-11,5,'python']` -> only strings, only positive numbers, only floats.
+  from same list, collect ints divisible by 3 in range 1..100.
+  from `s='python programming'` collect vowels.
+  from dict `{101:'Arun',102:'Amal',103:'Anu'}` collect names.
+  from dict `{'a':10,'b':15,'c':20,'d':25}` collect even values.
+
+p51.py
+Detailed inferred question:
+- From list `[1,2,3,4]`, create dictionary `{n:n**2}`.
+- From sentence `"python is a programming language"`, map each word to its length.
+- From list `[1,1,2,3,4,5,6,6,7,7]`, produce no-duplicate list.
+
+p52.py
+Detailed inferred question:
+- Define function `find_char(string, character)` to count occurrences of a character in a string.
+
+p53Bubble.py
+Detailed inferred question:
+- Read `n` numbers from user and sort list using Bubble Sort.
+
+p53Insertion.py
+Detailed inferred question:
+- Intended task: implement Insertion Sort for user-entered list.
+  (File incomplete.)
+
+p53Selection.py
+Detailed inferred question:
+- Read `n` numbers from user and sort list using Selection Sort.
+
+p54.py
+Detailed inferred question:
+- Commented tasks include return-based add function, circle area function, Armstrong check.
+- Active task demonstrates variable argument functions:
+  `f(*args)` and `a(**kwargs)`.
+
+p55.py
+Detailed inferred question:
+- Generate list `0..100` and demonstrate slicing:
+  all even-indexed elements and sliced even pattern from index 20.
+- Commented task includes recursive sum function.
+
+p56.py
+Detailed inferred question:
+- Define function to check perfect number by summing proper divisors.
+- Input `n` and print whether `n` is perfect.
+- Commented extra: Celsius to Fahrenheit conversion function.
+
+p57.py
+Detailed inferred question:
+- Commented tasks: character position/count and frequency dictionary.
+- Active task: from sentence `"python coding is easy and fun"`, print words with length > 5.
+
+p58.py
+Detailed inferred question:
+- From `l1=[12,45,67,89,98]` and `l2=[34,78,12,56,45]`, find common elements.
+- From `l1=[12,45,67,89,90]`, find max, second largest, min, second smallest.
+- Build dictionary from list `[12,45,67,89,7790]`.
+- From employee dict with salaries `[30000,50000,20000,60000]`, find maximum salary.
+
+p59.py
+Detailed inferred question:
+- In sentence `"python is a programming language"`, find longest word.
+- In list `[12,45,67,89,23]`, find max without using `max()`.
+
+p60.py
+Detailed inferred question:
+- Show normal function addition and lambda addition.
+- Compute factorial of input `n` using recursive lambda.
+
+p61.py
+Detailed inferred question:
+- `map()` practice:
+  cubes of `[1,2,3,4]`,
+  extract names from list of dicts,
+  extract authors from nested list,
+  lengths of colors list,
+  square roots of `[36,81,49,16]`.
+
+p62.py
+Detailed inferred question:
+- `filter()` practice on `l=[25,16,89,84,54,12,4,36,17,83]`:
+  even numbers, numbers divisible by 3, numbers > 50.
+
+p63.py
+Detailed inferred question:
+- Using `reduce/filter` on list `[12,-4,78,-34,90,45,16,26,-2,-11,3]`:
+  sum positive even,
+  sum positive odd,
+  sum negative even,
+  sum negative odd,
+  count positives, negatives, and evens.
+
+p64.py
+Detailed inferred question:
+- Basic output practice: print fixed strings (`Hello world`, etc.).
+
+p65.py
+Detailed inferred question:
+- Placeholder file (no complete active problem).
+
+p66mod1.py
+Detailed inferred question:
+- Create custom module function `msg(name)` that prints greeting.
+
+p66mod2.py
+Detailed inferred question:
+- Import from `p66mod1` and call `msg('zaheer')`.
+
+p67.py
+Detailed inferred question:
+- Demonstrate nested scope visibility (`outer`, `inner`, `ininner`) and access to enclosing variables.
+
+p68.py
+Detailed inferred question:
+- Create decorator that swaps arguments so subtraction always uses larger first number.
+- Apply on `sub(a,b)`.
+
+p69.py
+Detailed inferred question:
+- Create division decorator to prevent divide-by-zero and return message if denominator is `0`.
+
+p70.py
+Detailed inferred question:
+- Theory + implementation mixed file:
+  explain map/filter/reduce with examples,
+  explain major data types,
+  explain lambda,
+  create acronym from `['Python','Is','Great']` -> `PIG`,
+  build word detail dictionary from sentence,
+  print descending number pattern.
+
+p71.py
+Detailed inferred question:
+- No code present (empty file).
+
+task1.py
+Detailed inferred question:
+- Multi-part assignment:
+  dictionary updates on employee data,
+  string indexing/slicing on `"Hello, Python World!"`,
+  set update (`add 'lion'`),
+  list update (`['Riya','Ankit','Sara','Manu']`),
+  plus theory answers (Python features, mutable vs immutable, data types).
+
+Task2.py
+Detailed inferred question:
+- Two-program assignment:
+  BMI classification and toy-vendor discount by product code and amount.
+
+Task 3.py
+Detailed inferred question:
+- Large loop worksheet with many sub-questions, including:
+  divisibility ranges,
+  reverse string without slicing,
+  digit-sum,
+  cumulative sum,
+  range sum,
+  sum at even indices,
+  stop-at-zero sum,
+  continue/break tasks,
+  square-list creation,
+  remove vowels,
+  plus additional pending questions and nested-loop traversals.
+
+exampractice1.py
+Detailed inferred question:
+- Exam-style string problem bank:
+  middle char(s), slicing outputs, reverse, vowel/consonant count,
+  capitalize each word without `title()`.
+- Also includes advanced/extreme commented prompts:
+  duplicate removal preserving order, CSV with quoted commas, freq sort,
+  startswith/endswith any, longest common substring, template engine,
+  whitespace normalization, wildcard matching, RLE encode/decode, identifier validation.
+
+doubt.py
+Detailed inferred question:
+- Placeholder file (contains only `21`; no clear complete question).

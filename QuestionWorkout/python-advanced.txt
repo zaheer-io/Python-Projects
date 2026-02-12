@@ -1,0 +1,26 @@
+Folder: Python Advanced
+Goal: Detailed inferred questions including file names and operations.
+
+p1_readfile.py
+Detailed inferred question:
+- Open `file.txt` in read mode.
+- Find number of lines using `readlines()`.
+- Reset cursor with `seek(0)` and read words/content.
+- Print total lines and split-word output.
+
+p1_writefile.py
+Detailed inferred question:
+- Write text `I am ghost` into `new.txt`.
+- Reopen `new.txt` and read its content.
+
+p2.py
+Detailed inferred question set (multi-program file):
+- Find whether a specific word exists in `new.txt`.
+- Print last 5 lines from file.
+- Count letters, digits, and spaces in file text.
+- Change/update the second line of `new.txt`.
+
+task1.py
+Detailed inferred question:
+- Read a string and build dictionary of vowel counts:
+  keys `a, e, i, o, u` with value as count in input string.

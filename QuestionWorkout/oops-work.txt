@@ -1,0 +1,136 @@
+Folder: OOPS
+Goal: Detailed inferred questions with explicit attributes, menu options, and constants.
+
+p.py
+Detailed inferred question:
+- Build a class-based Student Record System using list of objects and menu loop.
+- Student data: `name`, `rollno`, and marks in `physics`, `chemistry`, `biology`, `maths`.
+- Menu options:
+  1) Add student
+  2) Display all students
+  3) Delete student by name
+  4) Update marks by name
+  5) Search student by name
+  6) Exit
+
+p1.py
+Detailed inferred question:
+- Create class `Person` with constructor input fields `name` and `age`, then display both using method `show()`.
+
+p2.py
+Detailed inferred question:
+- Create class `Employ` with attributes:
+  `empid`, `name`, `age`, `place`, `salary`, `designation`.
+- Add methods to display employee details and salary.
+
+p3.py
+Detailed inferred question:
+- Create class `Books` with attributes:
+  `bookid`, `title`, `author`, `page`, `price`, `language`.
+- Implement methods:
+  `getauthor`, `gettitle`, `getprice`, `setauthor`, `settitle`, `setprice`.
+- Show old vs updated values when setter runs.
+
+p4.py
+Detailed inferred question (commented block):
+- Create `Circle` class with `radius`; print area and perimeter using `math.pi`.
+
+p4.py
+Detailed inferred question (active block):
+- Create `Bank` class with `accountno`, `name`, `balance`.
+- Implement `showbalance`, `deposit(amount)`, and `withdrawn()` with insufficient balance check.
+
+p5.py
+Detailed inferred question:
+- Build menu-driven bank system with random account numbers (`1000`-`9999`) and initial balance `0.00`.
+- Features:
+  1) Create account by name
+  2) Deposit amount
+  3) Withdraw amount
+  4) Show balance
+  5) Exit
+
+p6.py
+Detailed inferred question:
+- Implement the above bank menu problem using class + list:
+  create account, deposit, withdraw, show balance, exit.
+
+p7.py
+Detailed inferred question:
+- Build library/book management system with class `Books` and list storage.
+- Book fields: `bookid`, `bookname`, `booktitle`, `bookauthor`, `bookprice`, `bookpage`, `booklang`.
+- Menu:
+  1) Add book
+  2) Show all books
+  3) Show particular book by id
+  4) Update a book
+  5) Delete a book
+  6) Exit
+
+p8.py
+Detailed inferred question:
+- Demonstrate single inheritance:
+  class `child(parent)` should call parent method `m1()` using `super()` and then print child message.
+
+p9.py
+Detailed inferred question:
+- Demonstrate inheritance `Employee(Company)`.
+- Inputs: `companyName`, `empName`, `empAge`, `empid`, `empsalary`.
+- Print employee details along with inherited company name and salary.
+
+p10.py
+Detailed inferred question:
+- Demonstrate multiple inheritance `Patient(Hospital, Department)`.
+- Inputs include hospital/department names + patient details:
+  `name`, `age`, `gender`, `admDate`, `bedNo`, optional `dischargeDate`.
+- Print full summary before and after setting discharge date.
+
+p11.py
+Detailed inferred question:
+- Demonstrate inheritance `Product(Category)`.
+- Inputs: `category_name`, `product_name`, `price`, `quantity`.
+- Print full product info and total price (`price * quantity`).
+
+p12.py
+Detailed inferred question:
+- Show Python method-overloading limitation and simulate flexible argument handling using `*args`/`**kwargs` in a class method.
+
+p13.py
+Detailed inferred question:
+- Demonstrate dunder operator overloading (`__add__`) in class `A` with input field `x`.
+- Create objects and test custom `+` behavior.
+
+p14.py
+Detailed inferred question:
+- Create abstract class `Shape` with abstract methods `area()` and `perimeter()`.
+- Implement subclasses:
+  `Circle` (radius input) and `Rectange` (length and breadth inputs).
+
+p16.py
+Detailed inferred question:
+- Build abstract employee payroll system with menu:
+  1) Add employee
+  2) Get salary by employee id
+- Base class `Employee`: `empid`, `empname`, `age`, abstract `get_salary()`.
+- Subclasses:
+  `Fixed` -> monthly salary
+  `Hourly` -> `hour * rate`
+
+p17.py
+Detailed inferred question:
+- Create abstract base class `Employee` and subclass `FixedHourEmployee` that sets and prints salary.
+
+p18.py
+Detailed inferred question:
+- Build Library Management System using abstraction + polymorphism + object list.
+- Abstract base `LibraryItem` fields: `id`, `title`, `author`.
+- Subclasses:
+  `Book` with `pages`
+  `DVD` with `duration`
+- Add availability state and methods `borrow_item()` / `return_item()`.
+- Menu:
+  1) Add item (admin password `226027`)
+  2) View items by type (`b`/`d`)
+  3) Borrow by item id
+  4) Return by item id
+  5) Exit
