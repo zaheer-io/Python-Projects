@@ -1,4 +1,6 @@
 #p4
+from functools import reduce
+from traceback import print_tb
 
 # num1 =  int(input("Enter a number: "))
 # num2 = int(input('Enter second number: '))
@@ -142,3 +144,129 @@
 # print(f'count of spaces {countSpace}')
 # print(f'count of Numbers {countNum}')
 # print(f'count of consonants {countConsonants}')
+
+# num = int(input('Enter number: '))
+
+# fact = 1
+# for i in range(1, num+1):
+#     fact *= i
+#
+# print(fact)
+
+
+# def find_fact(num):
+#     if num < 0:
+#         raise ValueError('Negative number')
+#     if num <= 1:
+#         return 1
+#     return num * find_fact(num - 1)
+#
+# print(find_fact(num))
+
+# l = [12,75,67,13,56,11]
+#
+# evenList = []
+# oddList = []
+# lList = []
+#
+# for i in l:
+#     if i < 50:
+#         lList.append(i)
+#     if i % 2 == 0:
+#         evenList.append(i)
+#     if i % 2 == 1:
+#         oddList.append(i)
+#
+# print(evenList, oddList, lList)
+#
+# l = [1,1,2,3,4,5,6,6,7,7]
+# newList = []
+#
+# for i in l:
+#     if i not in newList:
+#         newList.append(i)
+#
+# print(newList)
+
+# fruits = ['apple','banana','orange','pineapple','avocado']
+# newList = []
+#
+# for i in fruits:
+#     if len(i) > 5:
+#         newList.append(i)
+#
+# print(newList)
+
+
+# students = {
+#   'Asha':[98,82,91,97,89],
+#   'John':[88,76,92,85,77],
+#   'Maya':[70,70,84,79,88]
+# }
+#
+# def find_grade(mark):
+#     if mark > 80:
+#         return 'A'
+#     elif mark > 60:
+#         return 'B'
+#     elif mark > 40:
+#         return 'C'
+#     elif mark > 20:
+#         return 'D'
+#     else:
+#         return 'E'
+#
+# stdDetails = {}
+#
+# for name, mark in students.items():
+#     avg = sum(mark) / len(mark)
+#     # stdDetails.setdefault(name, {
+#     #     'avg' : avg,
+#     #     'mark' : find_grade(avg)
+#     # })
+#
+#     stdDetails.update({name : {
+#         'avg' : avg,
+#         'mark' : find_grade(avg)
+#     }})
+#
+# print(stdDetails)
+
+
+# l = [1,2,3,4]
+#
+# sqr = list(map(lambda x : x ** 3, l))
+# print(sqr)
+#
+# from math import sqrt as sq
+#
+# sqrts = list(map(lambda x : sq(x), l))
+# print(sqrts)
+
+# l = [25,16,89,84,54,12,4,36,17,83]
+#
+# print(list(filter(lambda x : x % 2 == 0, l)))
+# print(list(filter(lambda x : x % 3 == 0, l)))
+# print(list(filter(lambda x : x > 50, l)))
+
+# l = [12,-4,78,-34,90,45,16,26,-2,-11,-3]
+#
+# print(reduce(lambda x, y : x + y, list(filter(lambda x : x > 0 and x % 2 == 0, l))))
+#
+# print(reduce(lambda x, y : x + y, list(filter(lambda x : x < 0 and x % 2 == 1, l))))
+
+
+# inp = int(input('Enter the length: '))
+# arr = []
+#
+# for i in range(0, inp):
+#     arr.append(int(input(f'Enter {i+1} value: ')))
+#
+# print(arr)
+#
+# for i in arr:
+#     for j in arr:
+#         if i > j:
+#             arr[i], arr[j] = arr[j], arr[i]
+#
+# print(arr)
