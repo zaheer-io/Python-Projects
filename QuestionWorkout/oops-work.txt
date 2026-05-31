@@ -75,7 +75,7 @@ Detailed inferred question:
 p9.py
 Detailed inferred question:
 - Demonstrate inheritance `Employee(Company)`.
-- Inputs: `companyName`, `empName`, `empAge`, `empid`, `empsalary`.
+- Inputs: `companyName`, 'designation', `empName`, `empAge`, `empid`, `empsalary`.
 - Print employee details along with inherited company name and salary.
 
 p10.py
@@ -104,7 +104,7 @@ p14.py
 Detailed inferred question:
 - Create abstract class `Shape` with abstract methods `area()` and `perimeter()`.
 - Implement subclasses:
-  `Circle` (radius input) and `Rectange` (length and breadth inputs).
+  `Circle` (radius input) and `Rectangle` (length and breadth inputs).
 
 p16.py
 Detailed inferred question:
